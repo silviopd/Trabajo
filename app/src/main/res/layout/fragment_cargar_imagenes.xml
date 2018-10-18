@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cargarImagenes"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Cargar Imágenes"
+        android:id="@+id/textView11"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="50dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Imagen 1"
+            android:id="@+id/btnimagen1"
+            android:layout_marginRight="50dp"
+            android:textColor="#854F4F"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Imagen 2"
+            android:id="@+id/btnImagen2"
+            android:textColor="#854F4F"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgImagenes"
+        android:layout_gravity="center" />
+</LinearLayout>

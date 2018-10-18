@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mis_datos"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="Mis Datos" />
+        <item
+            android:id="@+id/nav_cargar_imagenes"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Cargar Imagenes" />
+        <item
+            android:id="@+id/nav_cargar_lista_imagenes"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Cargar Lista de Imagenes" />
+    </group>
+
+    <group android:menuCategory="system">
+        <item
+            android:id="@+id/nav_cerrar"
+            android:icon="@drawable/ic_highlight_off_black_24dp"
+            android:title="Cerrar Sesión" />
+    </group>
+
+
+</menu>
